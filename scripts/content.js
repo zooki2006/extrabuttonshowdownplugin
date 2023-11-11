@@ -11,11 +11,11 @@ function main() {
     var menu1element = document.getElementsByClassName("menugroup")[1];
   	var menu2element = document.getElementsByClassName("menugroup")[2];
   
-  	var friendslistelement = document.createElement("p"); // comment this out to remove the friends list button
-  	friendslistelement.innerHTML = '<button class="button mainmenu4" name="send" value="/friends list">'
-                + 'Friends list</button>'
-                ;
-  	menu2element.appendChild(friendslistelement);
+  	//var friendslistelement = document.createElement("p"); // comment this out to remove the friends list button
+  	//friendslistelement.innerHTML = '<button class="button mainmenu4" name="send" value="/friends list">'
+        //        + 'Friends list</button>'
+        //        ;
+  	//menu2element.appendChild(friendslistelement);
   
   		var onlineteamselement = document.createElement("p"); // comment this out to remove the online teams button
   	onlineteamselement.innerHTML = '<button class="button mainmenu4" name="send" value="/teams">'
